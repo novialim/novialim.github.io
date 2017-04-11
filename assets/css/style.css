@@ -1,0 +1,342 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	margin: 0 0 50px; /* bottom = footer height */
+	background-image: url("../images/ep_naturalwhite.png");
+	background-repeat: repeat;
+}
+
+body, p, li {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 100%;
+    color: #7b8493;
+}
+
+body h1, h2, h3, h4, h5 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 { 
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h5 { 
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  /*font-weight:      bold;*/
+  color:            #7b8493;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            #ce0f6c;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  font-weight:      300;
+  color:            purple;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  font-weight:      300;
+  color: blue;
+  } 
+
+
+.headbtm{
+	border-bottom: 2px solid #c5c5c5;
+	padding: 0 0 15px 0;
+	margin-bottom: 15px;
+}
+
+.greyColor {
+	color: #b3bbb6;
+}
+
+.purpleColor {
+	color: #ce0f6c;
+}
+
+.contentwidth {
+	margin: auto;
+	width: 960px;
+}
+
+.topheader {
+	background: #fff;
+	height: 65px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.headerName {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-weight: bolder;
+	font-size: 20px;
+	/*position: absolute;*/
+	float: left;
+	margin: auto;
+	height: 65px;
+	background: #ce0f6c;
+	color: #fff;
+	padding: 0 20px 0 20px;
+	font-size: 100%;
+}
+
+.headerNav {
+	position: relative;
+	float: right;
+}
+
+#ulNav {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+#ulNav li{
+	color: #7b8493;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+li~li { 
+	border-left: 1px solid #f7f7f7;
+}
+
+.content {
+	clear: both;
+	margin: auto;
+	padding-top: 20px;
+	float: left: 
+	background: #fff;
+}
+
+.content-left{
+	display: inline-block;
+	float: left;
+	width: 650px;
+	background: #fff;
+	border: 1px solid #d6d6d6;
+  margin-bottom: 70px;
+}
+
+.content-wrapper{
+	width: 100%;
+	float: left;
+  background: #fff;
+  padding: 10px 20px 20px 20px;
+  /*overflow: hidden;*/
+}
+
+.portfoliolist{
+  width:100%;
+  margin: auto;
+}
+
+.portfoliolist img{
+  width: 32%;
+}
+
+.content-details img {
+/*	
+	padding-right: 10px;
+*/	
+	display: inline-block;
+	float: left;
+	width: 170px;
+	height: 170px;
+	  /*margin-right: 20px;*/
+	border-radius: 100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius :100%;
+	-ms-border-radius:100%;
+	-o-border-radius: 100%;	
+	border: 2px dotted #ce0f6c;
+}
+ 
+
+.center {
+	text-align: center;
+	padding: 20px 0 10px 0;
+}
+
+.sidebar {
+	float: right;
+	width: 270px;
+	margin: auto;
+	background: #fff;
+	padding: 0 30px 30px 30px;
+	border: 1px solid #d6d6d6;
+}
+
+/*Contact Form*/
+
+.container {
+  max-width:400px;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background:#F9F9F9;
+  padding:25px;
+  margin:10px 0;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:100%;
+  border:none;
+  background:#ce0f6c;
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background:#1B8A9B;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+/*Footer*/
+
+.footerxsmallbold {
+	font-size: x-small;
+	font-weight: bold;
+	border-top: 5px solid #ce0f6c;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: #666666;
+}
